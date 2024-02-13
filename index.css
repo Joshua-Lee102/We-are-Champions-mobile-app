@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#freddie{
+  width: 90px;
+  height: 90px;
+  margin-top: 50px;
+}
+
+.header-text{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+#input-field{
+  width: 296px;
+  resize: none;
+  height: 120px;
+  border-radius: 8px;
+  border: none;
+  background: #444059;
+  padding: 12px 15px;
+}
+
+#publish-btn{
+  width: 320px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background: #28A9F1;
+  color: #04131C;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 12px 0px 24px 0px;
+}
+
+.sub-text{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#endorsement-text{
+  width: 320px;
+  background: white;
+  padding: 13px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
